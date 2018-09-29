@@ -1,0 +1,15 @@
+{
+  "name": "remote-backend",
+  "version": "1.0.0",
+  "description": "micorcompose的node后端",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:microcompose/node-backend.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
