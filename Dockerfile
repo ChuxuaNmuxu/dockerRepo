@@ -1,8 +1,7 @@
 FROM keymetrics/pm2:latest-alpine
 
 # Bundle APP files
-RUN mkdir -p ./src
-COPY src src/
+COPY app.js .
 COPY package.json .
 COPY ecosystem.config.js .
 
