@@ -13,6 +13,6 @@ RUN npm install --production
 EXPOSE 8082
 
 # SHOW current folder structure in logs
-RUN ls -al -R
+# RUN ls -al -R
 
 CMD ["pm2-runtime", "start", "ecosystem.config.js"]
