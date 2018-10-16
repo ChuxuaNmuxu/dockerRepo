@@ -1,9 +1,9 @@
 FROM keymetrics/pm2:latest-alpine
 
 # Bundle APP files
-ADD app.js .
-ADD package.json .
-ADD ecosystem.config.js .
+COPY app.js .
+COPY package.json .
+COPY ecosystem.config.js .
 
 # Install app dependencies
 ENV NPM_CONFIG_LOGLEVEL warn
